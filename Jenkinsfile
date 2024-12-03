@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKERHUB_CREDENTIALS = 'arunbarath' // ID of the Docker Hub credentials stored in Jenkins
+        DOCKERHUB_CREDENTIALS = 'docker_hub' // ID of the Docker Hub credentials stored in Jenkins
         DOCKERHUB_REPO = 'arunbarath/develop' // Correct Docker Hub repository format
     }
     stages {
